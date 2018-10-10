@@ -1,0 +1,8 @@
+exp SPROC4GD_DEV/SPROC4GD_DEV@10.10.15.168/orcl tables=(t1.1,t2.1) file=d:\dmp\xx.dmp
+
+
+
+exp pmcc_dw/pmcc_dw@10.10.15.188:1521/orcl tables=()  file=d:\dmp\dwyx\xx.dmp log=d:\dmp\dwyx\log\xx.log
+
+
+imp pmcc_dw/pmcc_dw@10.10.15.188:1521/orcl file=d:\dmp\1.dmp tables=(xx) log=d:\dmp\1.log
